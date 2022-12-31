@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainpanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zeeshan.calculator.MainEvents">
+    <children>
+        <Label id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="162.0" text="Calculator">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <TextField id="field" fx:id="field" alignment="CENTER_RIGHT" layoutY="50.0" prefHeight="50.0" prefWidth="320.0" promptText="0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Button id="bc" layoutY="100.0" mnemonicParsing="false" onAction="#c" prefHeight="80.0" prefWidth="80.0" text="C" />
+        <Button id="bb" layoutX="80.0" layoutY="100.0" mnemonicParsing="false" onAction="#b" prefHeight="80.0" prefWidth="80.0" text="←" />
+        <Button id="bdiv" layoutX="160.0" layoutY="100.0" mnemonicParsing="false" onAction="#div" prefHeight="80.0" prefWidth="80.0" text="÷" />
+        <Button id="bmul" layoutX="240.0" layoutY="100.0" mnemonicParsing="false" onAction="#mul" prefHeight="80.0" prefWidth="80.0" text="x" />
+        <Button id="b" layoutY="180.0" mnemonicParsing="false" onAction="#seven" prefHeight="80.0" prefWidth="80.0" text="7" />
+        <Button id="b" layoutX="80.0" layoutY="180.0" mnemonicParsing="false" onAction="#eight" prefHeight="80.0" prefWidth="80.0" text="8" />
+        <Button id="b" layoutX="160.0" layoutY="180.0" mnemonicParsing="false" onAction="#nine" prefHeight="80.0" prefWidth="80.0" text="9" />
+        <Button id="bsub" layoutX="240.0" layoutY="180.0" mnemonicParsing="false" onAction="#sub" prefHeight="80.0" prefWidth="80.0" text="-" />
+        <Button id="b" layoutY="260.0" mnemonicParsing="false" onAction="#four" prefHeight="80.0" prefWidth="80.0" text="4" />
+        <Button id="b" layoutX="80.0" layoutY="260.0" mnemonicParsing="false" onAction="#five" prefHeight="80.0" prefWidth="80.0" text="5" />
+        <Button id="b" layoutX="160.0" layoutY="260.0" mnemonicParsing="false" onAction="#six" prefHeight="80.0" prefWidth="80.0" text="6" />
+        <Button id="bsum" layoutX="240.0" layoutY="260.0" mnemonicParsing="false" onAction="#sum" prefHeight="80.0" prefWidth="80.0" text="+" />
+        <Button id="b" layoutY="340.0" mnemonicParsing="false" onAction="#one" prefHeight="80.0" prefWidth="80.0" text="1" />
+        <Button id="b" layoutX="80.0" layoutY="340.0" mnemonicParsing="false" onAction="#two" prefHeight="80.0" prefWidth="80.0" text="2" />
+        <Button id="b" layoutX="160.0" layoutY="340.0" mnemonicParsing="false" onAction="#three" prefHeight="80.0" prefWidth="80.0" text="3" />
+        <Button id="bp" layoutY="420.0" mnemonicParsing="false" onAction="#pi" prefHeight="80.0" prefWidth="80.0" text="⫪" />
+        <Button id="b" layoutX="80.0" layoutY="420.0" mnemonicParsing="false" onAction="#zero" prefHeight="80.0" prefWidth="80.0" text="0" />
+        <Button id="b" layoutX="160.0" layoutY="420.0" mnemonicParsing="false" onAction="#dot" prefHeight="80.0" prefWidth="80.0" text="." />
+        <Button id="be" layoutX="240.0" layoutY="340.0" mnemonicParsing="false" onAction="#equalto" prefHeight="160.0" prefWidth="80.0" text="=" />
+        <Label id="label" fx:id="addNumber" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="162.0" prefHeight="50.0" prefWidth="158.0" style="-fx-padding: 10;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

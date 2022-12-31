@@ -1,0 +1,100 @@
+#label{
+    -fx-background-color:#ffffff;
+}
+#label:hover{
+    -fx-text-fill:#dd8f44;
+}
+
+#field{
+    -fx-background-color:#ffffff;
+}
+
+#b{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#b:hover{
+    -fx-background-color:lightgray;
+}
+
+#bc{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bc:hover{
+    -fx-background-color:#dd8f44;
+}
+
+#bb{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bb:hover{
+    -fx-background-color:#FFCCCB;
+}
+
+#bp{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bp:hover{
+    -fx-background-color:lightgreen;
+}
+
+#bdiv{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bdiv:hover{
+    -fx-background-color:lightblue;
+}
+
+#bmul{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bmul:hover{
+    -fx-background-color:lightcyan;
+}
+
+#bsub{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bsub:hover{
+    -fx-background-color:#E9E5BC;
+}
+
+#bsum{
+    -fx-background-color:white;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#bsum:hover{
+    -fx-background-color:#FFFDD0;
+}
+
+#be{
+    -fx-background-color:#dd8f44;
+    -fx-font-size:24px;
+    -fx-background-radius:0px;
+    -fx-border-radius:0px;
+}
+#be:hover{
+    -fx-background-color:gray;
+}
